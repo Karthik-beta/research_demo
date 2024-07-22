@@ -30,9 +30,9 @@ with st.container(border=True):
     input1 = col1.number_input("Total Rotation Speed (X1)", value=0.00)
     input2 = col2.number_input("Feed (X2)", value=0.00)
     input3 = col3.number_input("Shoulder Pin Dia (X3)", value=0.00)
-    input4 = col4.number_input("Temperature (X4)", value=0)
-    input5 = col5.number_input("Force (Y1)", value=0)
-    input6 = col6.number_input("Torque (Y2)", value=0)
+    input4 = col4.number_input("Temperature (X4)", value=0.00)
+    input5 = col5.number_input("Force (Y1)", value=0.00)
+    input6 = col6.number_input("Torque (Y2)", value=0.00)
 
     # Calculate the result in the desired format
     result = f"a{input1} + a{input2} + a{input3} + a{input4} + a{input5} + a{input6} + C"
