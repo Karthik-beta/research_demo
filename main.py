@@ -53,7 +53,7 @@ with st.container(border=True):
         st.session_state.df = pd.concat([st.session_state.df, new_row], ignore_index=True)
 
 # Display the DataFrame as a table
-st.table(st.session_state.df)
+st.write(st.session_state.df)
 
 # Create and display charts based on the table data
 if not st.session_state.df.empty:    
