@@ -14,3 +14,4 @@ streamlit-vertical-slider==2.5.5
 plotly==5.22.0
 pandas==2.2.2
 numpy==1.26.3
+scipy==1.14.0
